@@ -1,0 +1,5 @@
+category: Text
+requires: cygwin libuspell1
+external-source: uspell
+sdesc: "Unicode spelling checker/corrector (libdevel)"
+ldesc: "A spelling checker/corrector for Unicode-encoded dictionaries."

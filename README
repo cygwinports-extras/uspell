@@ -1,0 +1,81 @@
+uspell
+------------------------------------------
+A spelling checker/corrector for Unicode-encoded dictionaries.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+
+Build requirements:
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.2-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.6a-1
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.abisource.com/
+
+Canonical download:
+  CVS
+
+-------------------------------------------
+
+Build instructions:
+  unpack uspell-1.1.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./uspell-1.1.1-X.cygport all
+
+This will create:
+  /usr/src/uspell-1.1.1-X-src.tar.bz2
+  /usr/src/uspell-1.1.1-X.tar.bz2
+  /usr/src/libuspell-devel-1.1.1-X.tar.bz2
+  /usr/src/libuspell1-1.1.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(uspell)
+  /usr/bin/udriver.exe
+  /usr/share/doc/uspell-1.1.1/README
+  /usr/share/doc/uspell-1.1.1/doc.txt
+
+(libuspell1)
+  /usr/bin/cyguspell-1.dll
+  /usr/share/uspell/hebrew.uspell.dat
+  /usr/share/uspell/hebrew.uspell.trans
+  /usr/share/uspell/yiddish.uspell.dat
+  /usr/share/uspell/yiddish.uspell.trans
+
+(libuspell-devel)
+  /usr/include/uspell/lookup2.h
+  /usr/include/uspell/myparameters.h
+  /usr/include/uspell/mytypes.h
+  /usr/include/uspell/transcribe.h
+  /usr/include/uspell/uniprops.h
+  /usr/include/uspell/uspell.h
+  /usr/include/uspell/utf8convert.h
+  /usr/lib/libuspell.a
+  /usr/lib/libuspell.dll.a
+  /usr/lib/libuspell.la
+  /usr/lib/pkgconfig/libuspell.pc
+
+------------------
+
+Port Notes:
+
+----- version 1.1.1-2 -----
+Repackaged.
+
+----- version 1.1.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

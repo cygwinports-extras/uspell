@@ -1,0 +1,5 @@
+category: Text
+requires: cygwin
+external-source: uspell
+sdesc: "Unicode spelling checker/corrector (runtime lib)"
+ldesc: "A spelling checker/corrector for Unicode-encoded dictionaries."

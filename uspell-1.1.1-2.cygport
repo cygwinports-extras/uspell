@@ -1,0 +1,15 @@
+# anoncvs requires a password, hence the extra segment below
+CVS_URI=":pserver:anoncvs:anoncvs@cvs.abisource.com:/cvsroot"
+inherit cvs
+
+DESCRIPTION="Unicode spelling checker/corrector"
+HOMEPAGE="http://www.abisource.com/"
+
+PATCH_URI="1.1.1-sys-types.patch"
+
+PKG_NAMES="${PN} lib${PN}1 lib${PN}-devel"
+uspell_CONTENTS="usr/bin/*.exe usr/share/doc/"
+libuspell1_CONTENTS="usr/bin/cyguspell-1.dll usr/share/uspell/"
+libuspell_devel_CONTENTS="usr/include/ usr/lib/"
+
+DOCS="doc/doc.txt"
