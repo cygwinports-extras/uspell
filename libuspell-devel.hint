@@ -1,5 +1,5 @@
 category: Text
-requires: cygwin libuspell1
+requires: cygwin libuspell1 libstdc++6-devel
 external-source: uspell
 sdesc: "Unicode spelling checker/corrector (libdevel)"
 ldesc: "A spelling checker/corrector for Unicode-encoded dictionaries."

@@ -1,4 +1,4 @@
 category: Text
-requires: cygwin libuspell1
+requires: cygwin libgcc1 libstdc++6 libuspell1
 sdesc: "Unicode spelling checker/corrector (app)"
 ldesc: "A spelling checker/corrector for Unicode-encoded dictionaries."
