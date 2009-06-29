@@ -1,5 +1,5 @@
 category: Text
-requires: cygwin libgcc1 libstdc++6
+requires: libgcc1 libstdc++6
 external-source: uspell
 sdesc: "Unicode spelling checker/corrector (runtime lib)"
 ldesc: "A spelling checker/corrector for Unicode-encoded dictionaries."
